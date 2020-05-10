@@ -1,0 +1,112 @@
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+h1,h2,p{
+  padding: 0;
+  margin: 0;
+}
+button {
+  outline: none;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.title{
+font-size: 36px;
+margin-top: 10vh;
+text-align: center;
+text-transform: capitalize;
+}
+.header{
+  color: aliceblue;
+width: 973px;
+height: 94px;
+margin: auto auto;
+background: #4D45D2;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.main{
+width: 912px;
+height: 257px;
+margin: auto auto;
+background: #6C63FF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.mainWrap{
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;  
+}
+.wrap{
+  margin-top: 10vh;
+ width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.day{
+margin-top: 15px;
+ height: 100%;
+  float: left;
+margin-left: 25px;
+}
+.month{
+  font-size: 1em;
+  display: flex;
+  height: 100%;
+  float: right;
+  margin-right: 25px;
+  justify-content: center;
+  align-items: center; 
+}
+.monthDay, .monthName{
+  float: left;
+  margin-right: 10px;
+}
+.location{
+  color: aliceblue;
+}
+.temperature{
+color: aliceblue;
+font-style: normal;
+font-weight: 600;
+font-size: 96px;
+line-height: 120px;
+}
+.btn {
+  height: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: white;
+  background: #D29345;
+  border: none;
+  border: 1px solid #D29345;
+  cursor: pointer;
+  margin-right: 5px;
+  text-transform: uppercase;
+  font-family: "Trebuchet MS", sans-serif;
+  -webkit-box-shadow: 0px 0px 2px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 2px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 2px -1px rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (max-width: 500px) {
+body{
+  background-color: #4D45D2;
+  color: white
+}
+.header{
+width: 100%;
+}
+.main{
+  width: 100%;
+}
+.wrap{
+  width: 100%;
+}
+}

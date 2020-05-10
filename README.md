@@ -38,5 +38,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ### `Links`
 
 project: https://www.freecodecamp.org/learn/coding-interview-prep/take-home-projects/show-the-local-weather
+
 Host: https://leo-weather-app-blaise.herokuapp.com/
+
 Github/Code: https://github.com/blaise82/weather-app
